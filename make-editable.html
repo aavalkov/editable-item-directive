@@ -1,0 +1,9 @@
+<div ng-transclude 
+	ng-init="editable = false" 
+	contenteditable = "{{editable}}" 
+	ng-class="{editing : editable}">
+</div>
+<a href="#" ng-show="!editable" ng-click="editable = true" class="btn">Edit</a>
+<a href="#" ng-show="editable" ng-click="editable = false" class="btn save">Save</a>
+
+

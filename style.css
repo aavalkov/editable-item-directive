@@ -1,0 +1,16 @@
+.editing {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.btn {
+	background: #2CA54B;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.save {
+	background: #0538AB;
+}
